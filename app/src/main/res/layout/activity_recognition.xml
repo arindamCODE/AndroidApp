@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.RecognitionActivity">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="May have some or all of the following:"
+       android:textStyle="bold"
+       android:textSize="25dp"
+       android:textColor="#000"
+       android:layout_margin="20dp"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Previous history of asthma"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Difficulty breathing"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Wheezing"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Difficulty talking in full sentences"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Increased breathing rate"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>

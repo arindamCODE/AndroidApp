@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    android:scrollbars="vertical"
+    tools:context="com.apkglobal.safetyfirst.skinActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 Try to find out what the casualty has been in contact with."
+            android:textSize="25dp"
+            android:textColor="#009"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep any containers with information about the possible poison"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 Do not touch the affected area with your bare hands"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 Flush away residual poison with running water for at least 20 minutes"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gently remove any contaminated clothing as you do this. Avoid splashing"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 If the casualty is unresponsive,open their airway and check their breathing:"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#009"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* If they are breathing,put then in the recovery position."
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* If they are not breathing,be prepared to resuscitate."
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 When the ambulance arrives,pass on any details of the poison."
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

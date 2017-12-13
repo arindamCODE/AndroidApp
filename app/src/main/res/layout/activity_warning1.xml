@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.Warning1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Any head injury must be treated seriously as it is potentially life threatening.  "
+
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You must advise casualties to seek medical advice.  "
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Head injury may result in concussion or compression,with or without a fractured skull: "
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Concussion"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#009"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="is a mild injury to the brain,usually resulting in a full recovery"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Compression"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#009"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="describes a bleed or swelling in the head which requires urgent medical attention."
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With all head injuries:"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Always assume the any casualty with a head injury may also have a neck injury"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Check the casualty's level of response by asking simple questions"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Anyone who has suffered a blow to the head that results in a loss of responsiveness must see a healthcare professional. "
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.Treatment1Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:text="4 Seek medical help if any of the following apply:
+* Increasing drowsiness
+* Persistent headache
+* Difficulty in speaking or walking
+* Vomiting
+* Double Vision
+* Seizure
+* Over 65 years old
+* They are taking anti clotting medication
+* They are intoxicated with drugs or alcohol
+* There is no responsible adult to look after them."
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prev"
+        android:textColor="#034e61"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_prev"
+        />
+
+
+
+
+</LinearLayout>

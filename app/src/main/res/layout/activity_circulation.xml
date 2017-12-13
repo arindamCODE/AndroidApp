@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.circulationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="3 If the casualty is not breathing normally,or you are in any doubt start resuscitation immediately. Call for help, send a helper to dial 999/112, or call for emergency help yourself.If there is an AED nearby get that too."
+        android:textSize="20dp"
+        android:textColor="#009"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="4 If the casualty is breathing normally,place them in the recovery position."
+        android:textSize="20dp"
+        android:textColor="#009"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Circulation"
+        android:textColor="#009"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Check for severe bleeding and treat life threatening injuries."
+        android:textSize="20dp"
+        android:textColor="#009"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_height="wrap_content"
+            android:text="Prev"
+            android:id="@+id/btn_prev"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#009"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

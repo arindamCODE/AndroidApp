@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.Adult1activity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reathe"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:text="* Breathe steadily into the casualty's mouth for one second.Watch the chest rise."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:text="* Keeping hands in position,remove your mouth.Let chest fall."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:text="* Give 30 chest compressions,at a rate of between 100-120 compressions per minute."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:text="* If you are unable,unwilling to or untrained to give rescue breaths,you can give chest compressions only."/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="250dp"
+
+        android:text="prev"
+        android:textColor="#000"
+        android:id="@+id/btn_prev"/>
+</LinearLayout>

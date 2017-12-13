@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.Asthma3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:text="5 If the casualty becomes unresponsive,open the airway and check breathing:"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:text="* if the casualty is breathing, place them in the recovery position. Monitor breathing and level of response umtil help arrives"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:text="* If the casualty is not breathing, begin resuscitation."
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prev"
+            android:textColor="#034e61"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="110dp"
+            android:id="@+id/btn_prev"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

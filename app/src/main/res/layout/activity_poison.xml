@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.PoisonActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Swallowed"
+        android:background="@drawable/bt_back"
+        android:textSize="20dp"
+        android:id="@+id/btn_1"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Skin"
+        android:background="@drawable/bt_back"
+        android:textSize="20dp"
+        android:id="@+id/btn_2"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Drugs"
+        android:background="@drawable/bt_back"
+        android:textSize="20dp"
+        android:id="@+id/btn_3"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_height="wrap_content"
+        android:text="Main"
+        android:background="@drawable/bt_back"
+        android:textSize="20dp"
+        android:id="@+id/btn_main"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

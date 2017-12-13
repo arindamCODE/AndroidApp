@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.apkglobal.safetyfirst.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="34dp"
+        android:alpha="0.75"
+        android:text="next"
+        android:textColor="#a5edf1"
+        android:id="@+id/btn_next"
+        android:textStyle="bold"
+        android:background="#009"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="                                       About First aid:
+
+First aid is the assistance given to any person suffering a sudden illness or injury, with care provided to preserve life, prevent the condition from worsening, and/or promote recovery.
+
+What is the main aim of first aid?
+First aid is the immediate treatment or care given to someone suffering from an injury or illness until more advanced care is accessed or they recover. The aims of first aid are to: preserve life. prevent illness or injury from becoming worse.
+
+What is in the first aid box?
+A Pocket mask in its case. Adhesive bandages are one of the most commonly used items in a first aid kit. ... Disposable gloves are often found in modern first-aid kits.
+
+A basic first aid kit may contain:
+
+    plasters in a variety of different sizes and shapes.
+    small, medium and large sterile gauze dressings.
+    at least two sterile eye dressings.
+    triangular bandages.
+    crêpe rolled bandages.
+    safety pins.
+    disposable sterile gloves.
+    tweezers."
+        android:textColor="#009"
+        android:textSize="16dp"/>
+
+</LinearLayout>

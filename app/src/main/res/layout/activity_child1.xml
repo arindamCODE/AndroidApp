@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.Child1Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reathe"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:text="6. Breathe steadily into the child's mouth for one second.Watch the chest rise."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:text="7. Keeping hands in position,remove your mouth.Let chest fall."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:text="Repeat steps 5 to 7,keeping airway open while pinching the child's nose and supporting their chin."/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:id="@+id/btn_prev"
+        android:textSize="20dp"
+       android:background="@drawable/bt_back"
+        android:textColor="#000"
+        />
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_marginTop="60dp"
+           android:layout_marginLeft="280dp"
+           android:layout_height="wrap_content"
+           android:text="next"
+           android:id="@+id/btn_next"
+           android:textSize="20dp"
+           android:background="@drawable/bt_back"
+           android:textColor="#000"
+           />
+
+   </RelativeLayout>
+</LinearLayout>

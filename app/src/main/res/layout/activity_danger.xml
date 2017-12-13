@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.dangerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Danger"
+        android:textColor="#009"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="* Only if it safe,you are trained to do so and the casualty is unresponsive should you enter the water to rescue a drowning victim."
+        android:textSize="20dp"
+        android:textColor="#009"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="* Do not approach until expert help arrives.Dial 999/112 for emergency help immediately."
+        android:textSize="20dp"
+        android:textColor="#009"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_height="wrap_content"
+            android:text="Prev"
+            android:id="@+id/btn_prev"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#009"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="280dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/btn_next"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#009"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

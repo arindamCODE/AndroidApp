@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.assesituActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="D.R.A.B.C"
+        android:textSize="40dp"
+        android:textColor="#009"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="* Danger"
+        android:textSize="30dp"
+        android:textColor="#009"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="* Response"
+        android:textSize="30dp"
+        android:textColor="#009"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="* Airway"
+        android:textSize="30dp"
+        android:textColor="#009"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="* Breathing"
+        android:textSize="30dp"
+        android:textColor="#009"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="* Circulation."
+        android:textSize="30dp"
+        android:textColor="#009"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="170dp"
+            android:layout_height="wrap_content"
+            android:text="Prev"
+            android:id="@+id/btn_prev"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#009"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="280dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/btn_next"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#009"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+
+    tools:context="com.apkglobal.safetyfirst.BleedActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_back"
+        android:id="@+id/btn_warning"
+        android:text="Hygiene Warning"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_back"
+        android:text="Severe bleed"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_sbleed"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_back"
+        android:text="Minor bleed"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_mbleed"
+        />
+
+
+
+
+</LinearLayout>

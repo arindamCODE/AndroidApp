@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.Responsivestroke">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:text="1.Keep the casualty in a comfortable,supported position.Even help them to lie down.\n\n2.Loosen any tight clothing and continue to reassure the casualty.\n\n3.Monitor and record the casualty's level of response,pulse and breathing.\n\n4.Donot give the casualty anything to eat or drink,as they may have difficulty swallowing."/>
+
+</LinearLayout>

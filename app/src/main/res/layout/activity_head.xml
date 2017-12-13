@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.HeadActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_back"
+        android:text="General Warning"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_warning"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_back"
+        android:text="Recognition"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_recognition"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_back"
+        android:text="Treatment"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:id="@+id/btn_treatment"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="main"
+        android:background="@drawable/bt_back"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_1"
+        android:layout_marginTop="240dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    android:scrollbars="vertical"
+    tools:context="com.apkglobal.safetyfirst.drugsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 If the casualty is responsive,place in a comfortable position and attempt to find out what has been taken"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 Do not include vomiting"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 Dial 999/112 for an ambulance giving as much information about the suspected drug as possible"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 If the casualty vomits,save a specimen for the emergency services:"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textColor="#009"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* If they are breathing but unresponsive,place them in the recovery position and monitor their breathing constantly."
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* If they are not breathing,be prepared to resuscitate."
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+    </LinearLayout>
+
+
+
+</ScrollView>

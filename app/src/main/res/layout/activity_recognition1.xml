@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    android:scrollbars="vertical"
+    tools:context="com.apkglobal.safetyfirst.Recognition1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONCUSSION"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#009"
+
+            android:layout_margin="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="May have some or all of the following:"
+           android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+           android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Recent blow to head
+* General headache
+* Impaired or becoming unresponsive
+* Dizziness on recovery
+* Memory loss
+* Confusion."
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMPRESSION"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#009"
+
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="May have some or all of the following:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Recent blow to head
+* Intense and Increasing headache
+* Beacoming unresponsive
+* Poor responses
+* Confusion
+* Slow,noisy breathing
+* Slow,strong pulse
+* Pupils of unequal size
+* Weakness on one side
+* Drowsiness
+* Irritability,disorientation
+* Vomiting."
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FRACTURES"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#009"
+
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="May have some or all of the following:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* History of injury
+* Wound/bruise to head
+* Soft area/dip in scalp
+* Low levels of response
+* Nose/ear fluid leak
+* Distortion of head/face
+* Irritability,confusion"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.safetyfirst.WarningActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:text="Be aware of the risk of cross infection when dealing with any open wound:"
+        android:textColor="#111589"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="1.Always wash your hands before and after treatment."
+
+
+        android:textColor="#000"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="2.If possible wear disposable gloves.If gloves are not available encourage the casualty to dress/cover their own wounds."
+
+
+        android:textColor="#000"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="3.Make sure that if you have any open wounds that they are covered with a plaster."
+
+
+        android:textColor="#000"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="4.Dispose of any waste.try not to touch a wound,or any dressing that is going to have contact with a wound."
+
+
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

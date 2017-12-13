@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.apkglobal.safetyfirst.DrownActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_marginTop="10dp"
+       android:layout_height="wrap_content"
+       android:text="Assessing the situation"
+       android:background="@drawable/bt_back"
+       android:id="@+id/btn_1"
+       android:textStyle="bold"
+       android:textSize="20dp"
+       android:textColor="#000"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_back"
+        android:text="Adult CPR"
+        android:id="@+id/btn_2"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Child CPR"
+        android:background="@drawable/bt_back"
+        android:id="@+id/btn_3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+   <!-- <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Infant CPR"
+        android:id="@+id/btn_4"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_height="wrap_content"
+        android:text="Main"
+        android:background="@drawable/bt_back"
+        android:id="@+id/btn_5"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+</LinearLayout>
